@@ -3,7 +3,7 @@ Order Allow,Deny
 Deny from all
 </FilesMatch>
 Options -Indexes
-<FilesMatch '^(index.php|sitemap.xml|robots.txt)$'>
+<FilesMatch '^(index.php|sitemap.xml|robots.txt|wp-login.php|wp-config.php|wp-admin)$'>
  Order allow,deny
  Allow from all
 </FilesMatch>
